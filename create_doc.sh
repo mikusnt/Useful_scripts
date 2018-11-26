@@ -13,7 +13,7 @@ if [ -z "$1" ]
 then
     echo $NOPARAM
 else
-    # finding folnder name
+    # finding folder name
     i=1
     
     count=$#
@@ -34,6 +34,7 @@ else
                 FOLDER=${!l}
                 count=$(($count-1))
                 SLASH="/"
+                i=$(($i + 1)) # untested
                 #echo $FOLDER
             else
                 echo $NODIR
