@@ -1,26 +1,48 @@
-command - en - pl
-pwd - print working directory - aktualny katalog roboczy
-ls - list directory contexts - zawartość danego katalogu
-cd - rename actual directory - zmiana aktualnego katalogu
-rmdir - remove empty directories - usuwa puste katalogi
-mkdir - make directories - tworzy foldery
-rm - remove files and directories - usuwa pliki i foldery
-cp - copy files and directories - kopiowanie plików i folderów
-mv - move and rename files - zmiana położenia, nazwy plików
-qrep - print lines matching a pattern - wypisuje linie w pliku pasujące do wzorca
-find - search for files in a directory hierarchy - wyszukiwarka plików w określonej strukturze katalogów
-cat - concatenate and print files - łączy i wypisuje zawartość plików
-shutdown - halt, power down, reboot machine - resetuje, wyłącza, uruchamia ponownie maszynę
-file - determine file type - typ pliku
-which - localization of command - lokalizacja polecenia
-du - file space usage - zajetosc na dysku poszczegolnych plikow
-uniq - report or omin repeated lines - zgłasza lub omija powtórzone linie
-wc - print newline, word, byte counts for file - podaje liczbę wierszy, słów, bajtów danego pliku
-head - output first part of file - zwraca poczatek pliku o okreslonej dlugosci
-tail - output last part of file - zwraca koniec pliku o okreslonej dlugosci
-pr - splits the data into pages - podzial tekstu na strony
-tr - translate character - zamiana znakow na inne
-less - file perusal filter for crt viewing - podzial tekstu na fragmenty wyswietlane na monitorze
-printenv - print all or part of environment variable - wyswietla fragment lub wszystkie zmienne srodowiskowe
-calendar - reminder service
-cal - calendar of actual month
+#command | en | pl
+adduser | add user or group to the system | dodaje użytkownika lub grubę do systemu
+at | management of planning jobs | zarządzanie zaplanowanymi zadaniami
+calendar | reminder service
+cal | calendar of actual month
+cat | concatenate and print files | łączy i wypisuje zawartość plików
+cd | rename actual directory | zmiana aktualnego katalogu
+chgrp | change group ownership | zmienia przynaleznosc do grupy
+chmod | change file mode bits | zmienia bity uprawnień plików
+chown | change owner | zmienia właściciela
+cp | copy files and directories | kopiowanie plików i folderów
+df | report file system disk space usage | wyświetla użycie dysków
+du | file space usage | zajetosc na dysku poszczegolnych plikow
+file | determine file type | typ pliku
+find | search for files in a directory hierarchy | wyszukiwarka plików w określonej strukturze katalogów
+finger | user information | informacje o użytkowniku
+gcc | GCC and C++ compiler | kompilator C i C++
+gcc|8 | version 8 of GCC and C++ compiler | kompilator C i C++ w wersji 8
+gdb | gnu debugger
+head | output first part of file | zwraca poczatek pliku o okreslonej dlugosci
+history | history of executed commands | historia ostatnio wpisanych poleceń
+id | print real and effective user and group IDs | wypisuje efektywne id użytkownika i grupy
+ifconfig | configure network interface | konfiguracja interfejsów sieciowych
+killall | kill process by name | zabija proces po nazwie
+kill | send a signall to a process | wysyła określony sygnał do procesu po id
+less | file perusal filter for crt viewing | podzial tekstu na fragmenty wyswietlane na monitorze
+ls | list directory contexts | zawartość danego katalogu
+mkdir | make directories | tworzy foldery
+mount | mount a filesystem | montuje nośnik
+mv | move and rename files | zmiana położenia, nazwy plików
+passwd | change user password | zmienia hasło użytkownika
+printenv | print all or part of environment variable | wyswietla fragment lub wszystkie zmienne srodowiskowe
+pr | splits the data into pages | podzial tekstu na strony
+pwd | print working directory | aktualny katalog roboczy
+qrep | print lines matching a pattern | wypisuje linie w pliku pasujące do wzorca
+rmdir | remove empty directories | usuwa puste katalogi
+rm | remove files and directories | usuwa pliki i foldery
+shutdown | halt, power down, reboot machine | resetuje, wyłącza, uruchamia ponownie maszynę
+tail | output last part of file | zwraca koniec pliku o okreslonej dlugosci
+tr | translate characters | zamiana znakow na inne
+umask | set file mode creation mask | zmienia maskę uprawnień dla nowotworzonych plików
+umount | unmoint a filesystem | odmontowuje nośnik
+uniq | report or omin repeated lines | zgłasza lub omija powtórzone linie
+uptime | print how long the system has been running | wyświetla jak długo uruchomiony jest system
+wc | print newline, word, byte counts for file | podaje liczbę wierszy, słów, bajtów danego pliku
+which | localization of command | lokalizacja polecenia
+whoami | print effective userid | wypisuje id użytkownika
+who | show who is logged on | wyświetla kto jest aktualnie zalogowany
